@@ -1,0 +1,153 @@
+/* star main  */
+body
+{
+    background: #AAA;
+    height: 940px;
+    direction: rtl;
+    color: #AAA;
+  
+}
+.container
+{
+   min-height: 600px ;
+    background: #ccc;
+}
+/* end main */
+
+/* star header  */
+header
+{
+    overflow: hidden;
+    background: #353333;
+}
+header nav {
+    float: left;
+    width: 90%;
+    /* background: #483b3b; */
+    
+   
+
+
+}
+header nav ul
+{
+    float: right;
+    width: 49%;
+    margin-right: 1%;
+    
+}
+header nav .search{
+    width: 49%;
+    float: left;
+    display: inline-block;
+   
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 8px;
+    background: #e5adad;
+   border-radius: 5px;
+   color: #353333;
+    margin: 10px;
+}
+header .logo
+{
+    width: 10%;
+    float: right;
+    height: 100px;
+    background: #5c5059;
+}
+header .logo img
+{
+ width:  100%;
+ height: 100%;
+ text-align: center;
+ 
+}
+/* end header  */
+
+/* star content */
+.content
+{
+    overflow: hidden;
+    min-height: 500px;
+    background: #f2ebeb;
+    margin-top: 10px;
+    
+}
+.content .sider
+{
+    float: right;
+    color: #353333;
+    width: 25%;
+    margin-left: 0.1%;
+    background: #f6f4f4;
+   
+}
+.content .sider .widget 
+{
+background: #8a6464;
+ 
+}
+
+
+.content section {
+    width: 74%;
+    float:left ;
+    background: #AAA;
+    overflow: hidden;
+   
+
+}
+.content section .products
+{
+    width: 24%;
+    background: #AAA;
+   display: inline-block;
+    
+
+}
+
+.content section .products .product
+{
+
+ background: #353333;
+
+ text-align: center;
+ margin-top:5px ;
+}
+.content section .products .product img{
+    min-width: 100%;
+}
+/* end content  */
+
+/* star footer */
+footer{
+    overflow: hidden;
+    background: #484545;
+    min-height: 200px;
+
+
+}
+footer .cont
+{
+    display: inline-block;
+    width: 32%;
+    margin-right:5px ;
+}
+footer .cont h3 {
+    border-bottom: #b3b3bd 1px solid ;
+    margin-left: 1%;
+}
+
+footer .copyright  
+{
+
+   text-align: center;
+   background:#e29797 ;
+   min-height: 20px;
+   color: #646161;
+   
+}
+/* end footer */
